@@ -18,7 +18,7 @@ import org.springframework.web.servlet.view.RedirectView;
 @Tag(name = "Account", description = "회원가입, 로그인 등 사용자 계정과 관련된 API Controller")
 public class AuthController {
 
-    @Value("${kakao.get-code.url}")
+    @Value("${kakao.url.code}")
     private String getCodeUrl;
     private final AuthService authService;
 
